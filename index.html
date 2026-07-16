@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>AKAV.CN | Premium Domain For Sale</title>
+
+<meta name="description"
+content="AKAV.CN 精品四字母域名出售，适合AI、科技、互联网品牌">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Microsoft YaHei",
+    sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+    color:white;
+    background:
+    radial-gradient(circle at top,#162b55,#050816 55%);
+
+    overflow-x:hidden;
+
+}
+
+
+
+/* 星空 */
+
+canvas{
+
+    position:fixed;
+    inset:0;
+    z-index:-1;
+
+}
+
+
+
+/* 顶部 */
+
+header{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:30px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:800;
+
+    letter-spacing:2px;
+
+}
+
+
+.logo span{
+
+    color:#5ee7ff;
+
+}
+
+
+
+nav a{
+
+    color:#ccc;
+
+    margin-left:30px;
+
+    text-decoration:none;
+
+}
+
+
+nav a:hover{
+
+    color:white;
+
+}
+
+
+
+
+/* hero */
+
+
+.hero{
+
+    min-height:80vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+.hero-card{
+
+
+    width:90%;
+
+    max-width:900px;
+
+    padding:70px 40px;
+
+
+    text-align:center;
+
+
+    background:
+    rgba(255,255,255,.08);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    backdrop-filter:blur(20px);
+
+
+    border-radius:30px;
+
+
+    box-shadow:
+
+    0 30px 80px rgba(0,0,0,.5);
+
+
+    animation:
+
+    show 1s ease;
+
+
+}
+
+
+
+
+.tag{
+
+    color:#5ee7ff;
+
+    letter-spacing:5px;
+
+    font-size:14px;
+
+}
+
+
+
+h1{
+
+
+    margin-top:20px;
+
+
+    font-size:
+
+    clamp(60px,12vw,130px);
+
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #fff,
+    #5ee7ff,
+    #9b8cff
+    );
+
+
+    -webkit-background-clip:text;
+
+    color:transparent;
+
+
+}
+
+
+
+.hero h2{
+
+    font-size:32px;
+
+    margin:20px;
+
+}
+
+
+
+.hero p{
+
+    color:#ccc;
+
+    font-size:18px;
+
+}
+
+
+
+
+button{
+
+
+    border:none;
+
+    cursor:pointer;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    font-size:16px;
+
+}
+
+
+
+.primary{
+
+
+    margin-top:35px;
+
+    color:white;
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #00c6ff,
+    #7b2cff
+    );
+
+
+}
+
+
+
+.secondary{
+
+    margin-left:20px;
+
+    background:white;
+
+    color:#111;
+
+}
+
+
+
+
+/* 内容 */
+
+.section{
+
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:60px auto;
+
+
+}
+
+
+
+.card{
+
+
+    padding:40px;
+
+
+    border-radius:25px;
+
+
+    background:
+
+    rgba(255,255,255,.07);
+
+
+    backdrop-filter:blur(20px);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.12);
+
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+.card h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+.card p,
+.card li{
+
+    color:#ccc;
+
+    line-height:2;
+
+}
+
+
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(300px,1fr));
+
+
+    gap:30px;
+
+
+}
+
+
+
+ul{
+
+    list-style:none;
+
+}
+
+
+
+li::before{
+
+    content:"✓ ";
+
+    color:#5ee7ff;
+
+}
+
+
+
+/* 数据 */
+
+.stats{
+
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(150px,1fr));
+
+
+    text-align:center;
+
+}
+
+
+
+.stats strong{
+
+    display:block;
+
+    font-size:35px;
+
+    color:#5ee7ff;
+
+}
+
+
+
+.stats span{
+
+    color:#aaa;
+
+}
+
+
+
+/* 流程 */
+
+
+.steps{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(150px,1fr));
+
+    gap:20px;
+
+
+}
+
+
+.steps div{
+
+
+    padding:25px;
+
+
+    text-align:center;
+
+
+    border-radius:20px;
+
+
+    background:
+    rgba(255,255,255,.08);
+
+
+}
+
+
+
+
+/* 联系 */
+
+.contact-card{
+
+    text-align:center;
+
+}
+
+
+.contact{
+
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-top:30px;
+
+}
+
+
+
+.contact button{
+
+    margin-top:10px;
+
+    background:#fff;
+
+}
+
+
+
+footer{
+
+    text-align:center;
+
+    padding:50px;
+
+    color:#888;
+
+}
+
+
+
+/* 弹窗 */
+
+
+.modal{
+
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+
+    rgba(0,0,0,.7);
+
+
+    justify-content:center;
+
+    align-items:center;
+
+
+}
+
+
+.modal-box{
+
+
+    background:#111827;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+
+}
+
+
+
+/* 动画 */
+
+
+@keyframes show{
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+
+
+
+@media(max-width:600px){
+
+
+nav{
+
+display:none;
+
+}
+
+
+.hero-card{
+
+padding:50px 20px;
+
+}
+
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+
+
+.contact{
+
+flex-direction:column;
+
+}
+
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<canvas id="stars"></canvas>
+
+
+
+<header>
+
+
+<div class="logo">
+AKAV<span>.CN</span>
+</div>
+
+
+<nav>
+
+<a href="#about">
+Domain
+</a>
+
+<a href="#contact">
+Contact
+</a>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+<section class="hero">
+
+
+<div class="hero-card">
+
+
+<div class="tag">
+PREMIUM DOMAIN
+</div>
+
+
+<h1>
+AKAV.CN
+</h1>
+
+
+<h2>
+Premium Brand Domain
+</h2>
+
+
+<p>
+A short, memorable and powerful four-letter domain.
+</p>
+
+
+
+<button class="primary"
+onclick="offer()">
+
+Make An Offer
+
+</button>
+
+
+
+<button class="secondary"
+onclick="copyMail()">
+
+Contact Owner
+
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="about"
+class="section">
+
+
+<div class="card">
+
+<h2>
+关于 AKAV.CN
+</h2>
+
+
+<p>
+
+AKAV.CN 是精品四字母 .CN 域名，
+简短、易记、具有高度品牌塑造空间。
+
+</p>
+
+
+<p>
+
+适合打造 AI、科技、互联网、
+软件、传媒等行业品牌官网。
+
+</p>
+
+
+</div>
+
+
+
+<div class="grid">
+
+
+<div class="card">
+
+<h2>
+Brand Meaning
+</h2>
+
+<ul>
+
+<li>
+Advanced Knowledge
+</li>
+
+<li>
+Advanced Vision
+</li>
+
+<li>
+Artificial Intelligence
+</li>
+
+<li>
+Alpha Key Value
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+<div class="card">
+
+<h2>
+Suitable For
+</h2>
+
+
+<ul>
+
+<li>
+AI企业</li>
+
+<li>
+科技公司</li>
+
+<li>
+互联网平台</li>
+
+<li>
+SaaS产品</li>
+
+<li>
+创业品牌</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section class="section">
+
+
+<div class="card stats">
+
+
+<div>
+
+<strong>
+4
+</strong>
+
+<span>
+Letters
+</span>
+
+</div>
+
+
+
+<div>
+
+<strong>
+.cn
+</strong>
+
+<span>
+Domain
+</span>
+
+</div>
+
+
+<div>
+
+<strong>
+★★★★★
+</strong>
+
+<span>
+Brand Value
+</span>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="contact"
+class="section">
+
+
+<div class="card contact-card">
+
+
+<h2>
+Interested In AKAV.CN?
+</h2>
+
+
+<p>
+Contact owner for acquisition.
+</p>
+
+
+
+<div class="contact">
+
+
+<div>
+
+Email
+
+<br>
+
+<button onclick="copyMail()">
+
+pmo@qq.com
+
+</button>
+
+
+</div>
+
+
+
+
+<div>
+
+WeChat
+
+<br>
+
+<button onclick="copyWechat()">
+
+921356
+
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+<footer>
+
+AKAV.CN
+
+<br>
+
+Premium Domain For Sale
+
+<br>
+
+2026
+
+</footer>
+
+
+
+
+
+
+<script>
+
+
+/* 星空 */
+
+const canvas=
+document.getElementById("stars");
+
+const ctx=
+canvas.getContext("2d");
+
+
+let stars=[];
+
+
+function resize(){
+
+canvas.width=innerWidth;
+
+canvas.height=innerHeight;
+
+}
+
+resize();
+
+window.onresize=resize;
+
+
+
+for(let i=0;i<180;i++){
+
+stars.push({
+
+x:Math.random()*innerWidth,
+
+y:Math.random()*innerHeight,
+
+r:Math.random()*2,
+
+s:Math.random()*0.5
+
+});
+
+}
+
+
+
+function draw(){
+
+
+ctx.clearRect(0,0,canvas.width,canvas.height);
+
+
+ctx.fillStyle="white";
+
+
+stars.forEach(s=>{
+
+
+ctx.beginPath();
+
+ctx.arc(
+s.x,
+s.y,
+s.r,
+0,
+Math.PI*2
+);
+
+
+ctx.fill();
+
+
+
+s.y+=s.s;
+
+
+if(s.y>innerHeight)
+s.y=0;
+
+
+
+});
+
+
+requestAnimationFrame(draw);
+
+
+}
+
+
+draw();
+
+
+
+
+
+function copyMail(){
+
+navigator.clipboard.writeText(
+"pmo@qq.com"
+);
+
+alert(
+"邮箱已复制：pmo@qq.com"
+);
+
+}
+
+
+
+
+function copyWechat(){
+
+navigator.clipboard.writeText(
+"921356"
+);
+
+alert(
+"微信已复制：921356"
+);
+
+}
+
+
+
+
+function offer(){
+
+alert(
+"请联系邮箱：pmo@qq.com\n微信：921356"
+);
+
+}
+
+
+
+</script>
+
+
+
+</body>
+</html>
